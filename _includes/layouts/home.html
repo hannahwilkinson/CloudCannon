@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>{{ title }} | WVU Extension</title>
+
+  <meta name="description"
+        content="{{ description }}">
+
+  <link rel="stylesheet"
+        href="/assets/css/extension.css">
+
+</head>
+
+<body>
+
+  {% include "header.html" %}
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <h1>
+          {{ hero_heading }}
+        </h1>
+
+        <p>
+          {{ hero_text }}
+        </p>
+
+        <a class="wvu-button"
+           href="{{ hero_button_url }}">
+
+          {{ hero_button_text }}
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- TIMELY TOPICS -->
+    <section class="extension-section">
+
+      <div class="container">
+
+        <h2>Timely Topics</h2>
+
+        <p class="section-intro">
+          Get timely information from WVU Extension experts
+          on a variety of topics.
+        </p>
+
+        <div class="topic-grid">
+
+          <a href="/agriculture/">
+            Agriculture
+          </a>
+
+          <a href="/youth-family/">
+            Youth & Family
+          </a>
+
+          <a href="/food-health/">
+            Food & Health
+          </a>
+
+          <a href="/natural-resources/">
+            Natural Resources
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TOP STORY -->
+    <section class="extension-section gray">
+
+      <div class="container">
+
+        <h2>Top Story</h2>
+
+        <div class="featured-story">
+
+          <div class="story-image">
+
+            <img
+              src="/assets/images/4h-story.jpg"
+              alt="4-H Clover Mascot">
+
+          </div>
+
+          <div class="story-content">
+
+            <h3>
+              West Virginia joins celebration of leadership,
+              learning and service with National 4-H Week
+            </h3>
+
+            <p>
+              From fairgrounds to classrooms, community gardens
+              to robotics labs, 4-H in West Virginia is helping
+              young people prove they're ready for the future.
+            </p>
+
+            <a href="#">
+              Read More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- NEWS -->
+    <section class="extension-section">
+
+      <div class="container">
+
+        <h2>Recent News Stories</h2>
+
+        <div class="news-grid">
+
+          <article class="news-card">
+
+            <img
+              src="/assets/images/news-1.jpg"
+              alt="">
+
+            <h3>
+              WV Teacher of the Year credits 4-H roots
+              for her success
+            </h3>
+
+            <p>
+              Learn more about this Extension story.
+            </p>
+
+            <a href="#">
+              Read More
+            </a>
+
+          </article>
+
+
+          <article class="news-card">
+
+            <img
+              src="/assets/images/news-2.jpg"
+              alt="">
+
+            <h3>
+              WVU Extension mourns passing of Dr. Cindy Fitch
+            </h3>
+
+            <p>
+              Learn more about this Extension story.
+            </p>
+
+            <a href="#">
+              Read More
+            </a>
+
+          </article>
+
+
+          <article class="news-card">
+
+            <img
+              src="/assets/images/news-3.jpg"
+              alt="">
+
+            <h3>
+              WVU Extension Young Innovators program
+            </h3>
+
+            <p>
+              Learn more about this Extension story.
+            </p>
+
+            <a href="#">
+              Read More
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MORE FROM EXTENSION -->
+    <section class="extension-section gray">
+
+      <div class="container">
+
+        <h2>More from Extension</h2>
+
+        <div class="link-grid">
+
+          <a href="/about/">
+            About Extension
+          </a>
+
+          <a href="/events/">
+            Conferences & Events
+          </a>
+
+          <a href="/contact/">
+            Contact Us
+          </a>
+
+          <a href="/about/jobs/">
+            Extension Jobs
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COUNTY MAP -->
+    <section class="extension-section">
+
+      <div class="container">
+
+        <h2>Local Extension Offices</h2>
+
+        <h3>WV County Office Map</h3>
+
+        <div id="county-map">
+
+          <!-- Your interactive WV map goes here -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- VIDEO -->
+    <section class="extension-section gray">
+
+      <div class="container">
+
+        <h2>Extension's Featured Video</h2>
+
+        <div class="video-wrapper">
+
+          <iframe
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="WVU Extension featured video"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="extension-section">
+
+      <div class="container">
+
+        <div class="contact-grid">
+
+          <div>
+
+            <h2>Media Contact</h2>
+
+            <p>
+              Contact our Extension communications team
+              with media, interview, and story ideas.
+            </p>
+
+          </div>
+
+          <div class="contact-card">
+
+            <h3>
+              Hannah Booth
+            </h3>
+
+            <p>
+              304-293-8701
+            </p>
+
+            <p>
+              Hannah.Booth@mail.wvu.edu
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EVENTS -->
+    <section class="extension-section gray">
+
+      <div class="container">
+
+        <h2>Upcoming Extension Events</h2>
+
+        <p>
+          Find events and add them to your calendar!
+        </p>
+
+        <div class="events">
+
+          <!-- Events will eventually come from data -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  {% include "footer.html" %}
+
+</body>
+
+</html>
