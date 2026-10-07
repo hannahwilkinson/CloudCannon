@@ -37,3 +37,10 @@ sections:
 
   - type: events
     heading: "Upcoming Extension Events"
+
+
+{% include contact-card.html
+   name="Hannah Booth"
+   phone="304-293-8701"
+   email="Hannah.Booth@mail.wvu.edu"
+%}
